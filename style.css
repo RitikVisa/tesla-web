@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.8rem 3rem;
+    color: white;
+    background-color: rgb(104, 148, 202);
+    font-size: 14px;
+    box-shadow: 0 0 100px rgba(5, 0, 0, 0.9) inset;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.ban-left{
+    font-size: 1.2rem;
+}
+
+.ban-mid{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 0.2rem;
+}
+.banner a{
+    color: white;
+    text-decoration:underline;
+}
+
+
+
+nav{
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 3rem;
+    color: white;
+    z-index: 1;
+    /* background-color: rgba(0, 0, 0, 0.148); */
+    /* position: relative; */
+
+}
+
+i{
+    margin-left: 1rem;
+}
+
+h3{
+    font-weight: 600;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: white;
+
+}
+
+nav img{
+    height: 1.5rem;
+}
+
+#experience-1{
+    position: relative;
+    height:117vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background: url(./Homepage-Model-X-Desktop-LHD.jpg);
+    background-size: cover;
+    background-position: center;  */
+    /* box-shadow: 0 0 100px rgba(0, 5, 5, 2) inset; */
+
+}
+
+#experience-1 .h-upper{
+margin-top: 8rem;
+color: white;
+/* background-color: rgba(0, 0, 0, 0.13); */
+z-index: 1;
+}
+#experience-1 h1{
+    font-weight: bold;
+
+}
+#experience-1 button{
+    z-index: 1;
+
+}
+
+/* video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    /* height: 100vh;
+    width: 100%;
+    
+} */
+
+/* .color-overlay{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom ,black,rgba(0, 0, 0, 0));
+    opacity: 0.3;
+    position: absolute;
+} */
+
+
+#hero{
+    /* margin-top: 3rem; */
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./Homepage-Model-S-Desktop-LHD-6.22.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+   
+}
+
+.h-upper{
+    margin-top: 5rem;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.148); */
+
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.h-lower{
+    margin-bottom: 6rem;
+}
+
+.btn-1{
+    padding: 0.8rem 6rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.651);
+    border: none;
+    border-radius: 0.2rem;
+    margin: 1rem;
+}
+
+.btn-2{
+    padding: 0.8rem 6rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.68);
+    border: none;
+    border-radius: 0.2rem;
+}
+
+#hero-2{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./Homepage-Model-Y-Global-Desktop.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#hero-2 .h-upper{
+margin-top: 3rem;
+}
+
+#hero-3{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./Homepage-Model-X-Desktop-LHD.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#hero-3 .h-upper{
+margin-top: 3rem;
+}
+
+#experience{
+    position: relative;
+    height:118vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background: url(./Homepage-Model-X-Desktop-LHD.jpg);
+    background-size: cover;
+    background-position: center;  */
+    /* box-shadow: 0 0 100px rgba(0, 5, 5, 2) inset; */
+
+}
+
+#experience .h-upper{
+margin-top: 8rem;
+color: white;
+/* background-color: rgba(0, 0, 0, 0.13); */
+z-index: 0;
+}
+#experience h1{
+    font-weight: bold;
+
+}
+#experience button{
+    background: none;
+    border-color: white;
+    border: 2px solid;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 1;
+
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    /* height: 100vh; */
+    width: 100%;
+    
+}
+
+.color-overlay{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom ,black,rgba(0, 0, 0, 0));
+    opacity: 0.3;
+    position: absolute;
+}
+
+#solar{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./425_HP_SolarPanels_D.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#solar .h-upper{
+margin-top: 3rem;
+}
+
+#solar a{
+    text-decoration:underline;
+}
+
+#solar-r{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./Homepage-SolarRoof-Desktop-Global.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#solar-r .h-upper{
+margin-top: 3rem;
+}
+
+#solar-r a{
+    text-decoration:underline;
+}
+
+#power{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./Homepage-Powerwall-Desktop.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#power .h-upper{
+margin-top: 3rem;
+}
+
+#acc{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./Homepage-Accessories-Desktop-NA-APAC.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#acc .h-upper{
+margin-top: 3rem;
+}
+
