@@ -253,7 +253,7 @@ video{
     height: 100%;
     width: 100%;
     background: linear-gradient(to bottom ,black,rgba(0, 0, 0, 0));
-    opacity: 0.3;
+    opacity: 1;
     position: absolute;
 }
 
